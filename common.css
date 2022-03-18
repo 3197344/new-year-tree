@@ -11,8 +11,70 @@ body {
   color: #212121;
   line-height: 1.5;
 }
-
+p{
+  text-align: center;
+  font-size: 30px;
+  font-weight: 700;
+}
 img {
   display: block;
   max-width: 100%;
+}
+.container{
+  
+  width: 100%;
+  
+  
+  margin: 0 auto;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+.button-box{
+  margin: 0 auto;
+}
+.tree {
+  
+  position: relative;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.box {
+  position: absolute;
+  width: 0;
+  height: 0;
+  border-left: 70px solid transparent;
+  border-right: 70px solid transparent;
+  border-bottom: 100px solid #4caf50;
+
+}
+
+.box:nth-child(1) {
+  top: 206px;
+  border-left: 120px solid transparent;
+  border-right: 120px solid transparent;
+  z-index: 2;
+}
+
+.box:nth-child(2) {
+  top: 152px;
+  border-left: 100px solid transparent;
+  border-right: 100px solid transparent;
+  z-index: 2;
+}
+
+.box:nth-child(3) {
+  top: 99px;
+  border-left: 77px solid transparent;
+  border-right: 77px solid transparent;
+  z-index: 1;
+}
+
+.box:nth-child(4) {
+  top: 36px;
+  border-left: 50px solid transparent;
+  border-right: 50px solid transparent;
 }
